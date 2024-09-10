@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #06283d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.container{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.buttons{
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button{
+    padding: 15px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#rock{
+    background-color: #be9c83;
+}
+
+#paper{
+    background-color: #cccccc;
+}
+
+#scissors{
+    background-color: #006da4;
+}
+
+.container-score{
+    padding: 13px;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.result{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.my-score span{
+    color: #17c008;
+}
+
+.machine-score span{
+    color: rgb(214, 37, 37);
+}
